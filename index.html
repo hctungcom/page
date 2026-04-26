@@ -19,18 +19,25 @@
       font-size: 16px;
       color: #fff;
       line-height: 1.4;
+      display: grid;
+      justify-items: stretch;
     }
     .block span {
-      display: block;
       text-align: justify;
       text-align-last: justify;
+    }
+    .block span:first-child {
+      width: max-content;
+    }
+    .block span:last-child {
+      width: 100%;
     }
   </style>
 </head>
 <body>
   <div class="block">
-    <span>HCTUNG</span>
-    <span>.COM</span>
+    <span>hctung</span>
+    <span>.com</span>
   </div>
 </body>
 </html>
